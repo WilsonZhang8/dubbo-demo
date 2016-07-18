@@ -18,6 +18,11 @@
 		<dependency>
 			<groupId>com.zghw.dubbo.demo</groupId>
 			<artifactId>dubbo-config</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zghw.dubbo.demo</groupId>
+			<artifactId>dubbo-base-service-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 	</dependencies>

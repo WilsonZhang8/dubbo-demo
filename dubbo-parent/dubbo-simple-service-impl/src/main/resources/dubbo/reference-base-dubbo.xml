@@ -6,5 +6,5 @@
 	http://code.alibabatech.com/schema/dubbo 
 	http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 	<!-- 消费服务 -->
-	
+	<dubbo:reference id="helloBaseService" interface="com.zghw.dubbo.base.service.api.IHelloBaseService"/>
 	</beans>

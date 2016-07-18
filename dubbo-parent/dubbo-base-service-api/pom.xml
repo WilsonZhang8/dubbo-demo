@@ -3,17 +3,15 @@
   <parent>
     <groupId>com.zghw.dubbo.demo</groupId>
     <artifactId>dubbo-parent</artifactId>
-	<version>0.0.1</version>
+    <version>0.0.1</version>
   </parent>
-  <artifactId>dubbo-simple-service-api</artifactId>
-  <packaging>jar</packaging>
+  <artifactId>dubbo-base-service-api</artifactId>
   
   <dependencies>
   	<dependency>
-  		<groupId>com.zghw.dubbo.demo</groupId>
-  		<artifactId>dubbo-entity</artifactId>
-  		<version>${project.version}</version>
+		<groupId>com.zghw.dubbo.demo</groupId>  	
+		<artifactId>dubbo-entity</artifactId>
+		<version>${project.version}</version>
   	</dependency>
   </dependencies>
-  
 </project>

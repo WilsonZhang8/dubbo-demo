@@ -8,10 +8,12 @@
 	<name>parent</name>
 	<description>parent moudle</description>
 	<modules>
-		<module>dubbo-simple-entity</module>
 		<module>dubbo-simple-service-api</module>
 		<module>dubbo-simple-service-impl</module>
 		<module>dubbo-simple-webapp</module>
+		<module>dubbo-base-service-api</module>
+		<module>dubbo-base-service-impl</module>
+		<module>dubbo-base-webapp</module>
 	</modules>
 	<properties>
 		<spring.version>4.1.6.RELEASE</spring.version>

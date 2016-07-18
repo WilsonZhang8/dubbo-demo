@@ -6,6 +6,7 @@
 	<version>0.0.1</version>
   </parent>
   <artifactId>dubbo-simple-webapp</artifactId>
+  <packaging>war</packaging>
   
   <dependencies>
   	<dependency>
