@@ -15,7 +15,7 @@ public class DubboMain {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext ("spring.xml");
         context.start ();
         IHelloWorldService helloWorldSerivce=(IHelloWorldService)context.getBean("helloWorldService");
-        System.out.println(helloWorldSerivce.hello());
+        System.out.println(helloWorldSerivce.helloBase());
         try {
             System.in.read ();
         } catch (IOException e) {
